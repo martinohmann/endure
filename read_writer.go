@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-// ReadWriter defines a storage that reads from and writes to an io.ReadWriter.
+// ReadWriterStorage defines a storage that reads from and writes to an io.ReadWriter.
 type ReadWriterStorage struct {
 	mu        sync.Mutex
 	RW        io.ReadWriter
