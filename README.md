@@ -1,6 +1,10 @@
 endure
 ======
 
+[![Build Status](https://travis-ci.org/martinohmann/endure.svg)](https://travis-ci.org/martinohmann/endure)
+[![Go Report Card](https://goreportcard.com/badge/github.com/martinohmann/endure)](https://goreportcard.com/report/github.com/martinohmann/endure)
+[![GoDoc](https://godoc.org/github.com/martinohmann/endure?status.svg)](https://godoc.org/github.com/martinohmann/endure)
+
 Easily load and store values of arbitrary go types in files or other persistent
 storages. The main purpose of this library is to provide an easy-to-use
 interface for reading and writing config and state files.
